@@ -1,4 +1,4 @@
-# Changelog — SmartMail Automation
+# Changelog — Mala Direta
 
 Todas as mudanças relevantes do projeto estão documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
@@ -9,7 +9,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 - Versão de portfólio completa e sanitizada do projeto real
-- Workflow demonstrativo (`smartmail-automation-demo.json`) com dados fictícios
+- Workflow demonstrativo (`mala-direta.json`) com dados fictícios
 - Painel web completo: editor de mensagem, seleção de destinatários, grupos inteligentes
 - Fila parcelada persistente em JSON com Interval Trigger de 1 minuto
 - Deduplicação por fingerprint FNV-1a de campanha
@@ -19,7 +19,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Histórico de envios com data, empresa, e-mail e status no painel
 - Configuração de parcelamento via painel (lote + intervalo em minutos ou horas)
 - Assinatura automática carregada de `signature.html`
-- Scripts de automação: `prepare-demo-files.ps1`, `sanitize_workflow.js`, `validate-public-workflow.js`
+- Scripts de automação internos removidos do repositório público
 - Dados de demonstração fictícios em `demo-data/`
 - Documentação completa: README bilingue, ARCHITECTURE, TECHNICAL_DECISIONS, USER_FLOW, TESTING, TROUBLESHOOTING, PRIVACY_AND_SECURITY, WORKFLOW_NOTES, PORTFOLIO_COPY
 - `.env.example` com todas as variáveis necessárias
@@ -27,7 +27,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Infraestrutura Docker documentada com `docker-compose.yml` de exemplo
 
 ### Segurança
-- IPs, domínios e credenciais reais removidos do workflow via script automatizado
+- IPs, domínios e credenciais reais removidos do workflow
 - Validação pré-push com `validate-public-workflow.js`
 - Dados de demo usando apenas domínios fictícios (`example.com`, `alpha.example`)
 

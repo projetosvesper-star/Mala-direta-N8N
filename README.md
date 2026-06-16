@@ -10,7 +10,7 @@
 <p align="center">
   <a href="README.en.md">🇺🇸 Read in English</a>
   &nbsp;|&nbsp;
-  <a href="https://github.com/projetosvesper-star/Gerenciador-de-Campanhas-de-E-mail-com-n8n">GitHub</a>
+  <a href="https://github.com/projetosvesper-star/Mala-direta-N8N">GitHub</a>
   &nbsp;|&nbsp;
   <a href="docs/ARCHITECTURE.md">Arquitetura</a>
   &nbsp;|&nbsp;
